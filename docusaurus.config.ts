@@ -107,7 +107,7 @@ const config: Config = {
 				src: "https://github.com/NishantGits.png",
 				height: 128,
 				style: {
-					borderRadius: "12px",
+					borderRadius: "25px",
 					boxShadow: "0 4px 20px rgba(99, 102, 241, 0.15)",
 					border: "2px solid rgba(99, 102, 241, 0.2)",
 					transition: "all 0.3s ease"

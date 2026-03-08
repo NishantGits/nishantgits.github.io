@@ -2,14 +2,14 @@
 
 ## Repository Setup
 
-The FlowChat documentation is now ready for production deployment to: https://github.com/NishantGits/flow-docs
+The FlowChat documentation is now ready for production deployment to: https://github.com/NishantGits/nishantgits.github.io
 
 ## Quick Deploy Commands
 
 ```bash
 # Clone and deploy
-git clone https://github.com/NishantGits/flow-docs.git
-cd flow-docs
+git clone https://github.com/NishantGits/nishantgits.github.io.git
+cd nishantgits.github.io
 npm install
 npm run build
 ```
@@ -26,7 +26,7 @@ The repository includes:
 ### Option 1: Manual VM Deployment
 Follow the detailed VM setup instructions in `README.md`
 
-### Option 2: Vercel/Netlify (Recommended)
+### Option 2: Vercel (Recommended)
 ```bash
 # Install Vercel CLI
 npm i -g vercel
@@ -59,16 +59,7 @@ The GitHub Actions workflow includes:
 Create `.env.production` for production:
 ```bash
 NODE_ENV=production
-GA_TRACKING_ID=G-522JSJVWTB
+GA_TRACKING_ID=G-#######
 ```
-
-## Support
-
-For deployment issues:
-- 📧 **Email**: contact@flowchats.org
-- 📚 **Docs**: See README.md in repository
-- 🐛 **Issues**: Create GitHub issue
-
----
 
 **Ready for production deployment! 🚀**

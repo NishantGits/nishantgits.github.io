@@ -1,0 +1,76 @@
+---
+title: 💬 FlowChat
+description: Professional Multi-LLM Chat Platform
+---
+
+# FlowChat
+
+**FlowChat is a proprietary, company-grade multi-LLM chat platform** designed for professional teams and organizations. It provides a unified interface to interact with multiple AI models while maintaining strict privacy and security standards.
+
+## 🚀 Why FlowChat?
+
+FlowChat solves the fragmentation problem of using multiple AI interfaces by providing:
+
+- **Unified Access** - Connect to any OpenAI-compatible endpoint from one interface
+- **Team Collaboration** - Channels for organized, persistent team conversations  
+- **Knowledge Management** - Integrated notes system with full-text search
+- **Enterprise Security** - Private deployment with no external telemetry
+- **Professional Grade** - Closed-source platform with frequent updates
+
+## ✨ Key Features
+
+### 🤖 Universal Model Support
+Connect to FlowChat's built-in models or add your own API keys for any OpenAI-compatible provider.
+
+### 🔐 Flexible Authentication
+Choose between email/password or Google OAuth for seamless team access.
+
+### 💬 Team Channels
+Organized workspaces for projects, departments, or clients with persistent conversation history.
+
+### 📝 Knowledge Base
+Rich Markdown notes with tagging, attachments, and full-text search across all content.
+
+### 🛠️ Advanced Tools
+Conversation organization, export options, custom prompts, and side-by-side model comparisons.
+
+### ⚡ Modern Interface
+Clean, responsive design with dark/light themes and real-time streaming.
+
+## 📊 Platform Capabilities
+
+| Feature | Description |
+|---------|-------------|
+| **Built-in Models** | FlowChat's curated model selection |
+| **Custom APIs** | Bring your own OpenAI-compatible keys |
+| **Team Workspaces** | Persistent channels for collaboration |
+| **Smart Search** | Full-text across chats and notes |
+| **Export Options** | JSON, Markdown, PDF formats |
+| **Mobile Ready** | Optimized for all devices |
+
+## 👥 Who Uses FlowChat?
+
+- **Individuals** - One polished app for all AI interactions
+- **Teams** - Shared channels and knowledge management
+- **Companies** - Secure, compliant AI workspace
+- **Developers** - Side-by-side model testing and comparison
+
+## 🚀 Get Started
+
+FlowChat is available as a Docker-based private deployment.
+
+:::info
+
+**WebSocket** support is required for FlowChat to function correctly. Ensure that your network configuration allows WebSocket connections.
+
+:::
+
+## 🔗 Links
+
+- **Live Platform**: [flowchats.org](https://flowchats.org)
+- **GitHub Repository**: [github.com/NishantGits/flow-docs](https://github.com/NishantGits/flow-docs)
+- **Support**: [contact@flowchats.org](mailto:contact@flowchats.org)
+
+---
+
+*Built with ❤️ by NishantGits*

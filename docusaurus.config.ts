@@ -3,17 +3,17 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 import { themes as prismThemes } from "prism-react-renderer";
 
-// FlowChat brand colors - bright cyan/turquoise from website
-const brandColor = "#00E5FF";
-const brandColorDark = "#00B8D4";
+// NishantGits personal brand colors - modern purple/blue gradient
+const brandColor = "#6366F1";
+const brandColorDark = "#4F46E5";
 
 const config: Config = {
-	title: "FlowChat",
-	tagline: "Professional Multi-LLM Chat Platform",
-	favicon: "https://flowchats.org/static/splash.png",
+	title: "NishantGits",
+	tagline: "Young Developer & AI Enthusiast",
+	favicon: "https://github.com/NishantGits.png",
 
 	// Set the production url of your site here
-	url: "https://flowchats.org",
+	url: "https://nishantgits.github.io",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: "/",
@@ -21,7 +21,7 @@ const config: Config = {
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "NishantGits", // Usually your GitHub org/user name.
-	projectName: "docs", // Usually your repo name.
+	projectName: "nishantgits", // Usually your repo name.
 
 	onBrokenLinks: "throw",
 
@@ -71,79 +71,95 @@ const config: Config = {
 	],
 
 	themeConfig: {
-		// FlowChat color scheme - bright cyan/turquoise
 		colorMode: {
 			defaultMode: "light",
 			disableSwitch: false,
 			respectPrefersColorScheme: true,
 		},
 		navbar: {
-			title: "FlowChat",
+			title: "NishantGits",
 			logo: {
-				src: "https://flowchats.org/static/splash.png",
-				srcDark: "https://flowchats.org/static/splash.png",
-				height: 32,
+				src: "https://github.com/NishantGits.png",
+				height: 128,
+				style: {
+					borderRadius: "12px",
+					boxShadow: "0 4px 20px rgba(99, 102, 241, 0.15)",
+					border: "2px solid rgba(99, 102, 241, 0.2)",
+					transition: "all 0.3s ease"
+				}
 			},
 			items: [
 				{
-					href: "https://flowchats.org",
-					label: "Platform",
+					to: "/",
+					label: "Home",
 					position: "left",
+				},
+				{
+					href: "https://github.com/NishantGits",
+					label: "GitHub",
+					position: "right",
+					className: "header-github-link",
 				},
 			],
 		},
 		footer: {
 			logo: {
-				src: "https://flowchats.org/static/splash.png",
-				height: 32,
+				src: "https://github.com/NishantGits.png",
+				height: 128,
+				style: {
+					borderRadius: "12px",
+					boxShadow: "0 4px 20px rgba(99, 102, 241, 0.15)",
+					border: "2px solid rgba(99, 102, 241, 0.2)",
+					transition: "all 0.3s ease"
+				}
 			},
 			style: "dark",
 			links: [
 				{
-					title: "Product",
+					title: "Projects",
 					items: [
 						{
-							label: "Platform",
+							label: "FlowChat",
 							href: "https://flowchats.org",
 						},
 						{
-							label: "Models",
-							to: "/features/multi-llm",
+							label: "HTMLPLAY",
+							href: "https://html-play.base44.app",
 						},
 						{
-							label: "Features",
-							to: "/",
-						},
-					],
-				},
-				{
-					title: "Support",
-					items: [
-						{
-							label: "Contact Support",
-							href: "mailto:support@flowchats.org",
-						},
-						{
-							label: "Documentation",
-							to: "/",
+							label: "Fluid AI",
+							href: "https://github.com/NishantGits/fluid-ai",
 						},
 					],
 				},
 				{
-					title: "Legal",
+					title: "Resources",
 					items: [
 						{
-							label: "Privacy Policy",
-							href: "https://flowchats.org/privacy",
+							label: "GitHub Profile",
+							href: "https://github.com/NishantGits",
 						},
 						{
-							label: "Terms of Service",
-							href: "https://flowchats.org/terms",
+							label: "About Repository",
+							href: "https://github.com/NishantGits/nishantgits",
+						},
+					],
+				},
+				{
+					title: "Connect",
+					items: [
+						{
+							label: "Email",
+							href: "mailto:nlrayyanyo@gmail.com",
+						},
+						{
+							label: "GitHub",
+							href: "https://github.com/NishantGits",
 						},
 					],
 				},
 			],
-			copyright: `© ${new Date().getFullYear()} FlowChat. All rights reserved.`,
+			copyright: `<span style="display: flex; align-items: center; justify-content: center; gap: 8px;">© ${new Date().getFullYear()} NishantGits. Built with <span style="color: #ff6b6b;">❤️</span> and powered by <a href="https://sider.ai" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; font-weight: 700; border-bottom: 1px solid rgba(99, 102, 241, 0.4);">Sider.ai</a></span>`,
 		},
 		prism: {
 			theme: prismThemes.github,

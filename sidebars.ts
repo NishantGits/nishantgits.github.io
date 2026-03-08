@@ -19,39 +19,41 @@ const sidebars: SidebarsConfig = {
 			label: "🏡 Home",
 		},
 		{
-			type: "doc",
-			id: "features/multi-llm",
-			label: "🤖 Multi-LLM Support",
+			type: "category",
+			label: "🚀 Projects",
+			items: [
+				{
+					type: "doc",
+					id: "projects/flowchat",
+					label: "💬 FlowChat",
+				},
+				{
+					type: "doc",
+					id: "projects/html-play",
+					label: "🎨 HTMLPLAY",
+				},
+				{
+					type: "doc",
+					id: "projects/fluid-ai",
+					label: "🤖 Fluid AI",
+				},
+			],
 		},
 		{
-			type: "doc",
-			id: "features/authentication",
-			label: "🔐 Authentication",
-		},
-		{
-			type: "doc",
-			id: "features/channels",
-			label: "💬 Channels",
-		},
-		{
-			type: "doc",
-			id: "features/notes",
-			label: "📝 Notes",
-		},
-		{
-			type: "doc",
-			id: "features/conversation-tools",
-			label: "🛠️ Conversation Tools",
-		},
-		{
-			type: "doc",
-			id: "features/ui-ux",
-			label: "⚡ UI/UX & Performance",
-		},
-		{
-			type: "doc",
-			id: "features/paid-plan",
-			label: "💎 Paid Plan",
+			type: "category",
+			label: "👤 About",
+			items: [
+				{
+					type: "doc",
+					id: "about/skills",
+					label: "🛠️ Skills & Technologies",
+				},
+				{
+					type: "doc",
+					id: "about/contact",
+					label: "📧 Contact & Social",
+				},
+			],
 		},
 	],
 };

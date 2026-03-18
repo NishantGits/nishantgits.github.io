@@ -159,7 +159,7 @@ const config: Config = {
 					],
 				},
 			],
-			copyright: `<span style="display: flex; align-items: center; justify-content: center; gap: 8px;">© ${new Date().getFullYear()} NishantGits. Built with <span style="color: #ff6b6b;">❤️</span> and powered by <a href="https://sider.ai" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; font-weight: 700; border-bottom: 1px solid rgba(99, 102, 241, 0.4);">Sider.ai</a></span>`,
+			copyright: `<span style="display: flex; align-items: center; justify-content: center; gap: 8px;">© ${new Date().getFullYear()} NishantGits. Built with <span style="color: #ff6b6b;">❤️</span>`,
 		},
 		prism: {
 			theme: prismThemes.github,

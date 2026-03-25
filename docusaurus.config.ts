@@ -82,7 +82,7 @@ const config: Config = {
 				src: "https://github.com/NishantGits.png",
 				height: 128,
 				style: {
-					borderRadius: "12px",
+					borderRadius: "32px",
 					boxShadow: "0 4px 20px rgba(99, 102, 241, 0.15)",
 					border: "2px solid rgba(99, 102, 241, 0.2)",
 					transition: "all 0.3s ease"
@@ -159,7 +159,7 @@ const config: Config = {
 					],
 				},
 			],
-			copyright: `<span style="display: flex; align-items: center; justify-content: center; gap: 8px;">© ${new Date().getFullYear()} NishantGits. Built with <span style="color: #ff6b6b;">❤️</span> and powered by <a href="https://sider.ai" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; font-weight: 700; border-bottom: 1px solid rgba(99, 102, 241, 0.4);">Sider.ai</a></span>`,
+			copyright: `<span style="display: flex; align-items: center; justify-content: center; gap: 8px;">© ${new Date().getFullYear()} NishantGits. Built with <span style="color: #ff6b6b;">❤️</span></span>`,
 		},
 		prism: {
 			theme: prismThemes.github,

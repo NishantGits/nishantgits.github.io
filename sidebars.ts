@@ -37,6 +37,16 @@ const sidebars: SidebarsConfig = {
 					id: "projects/fluid-ai",
 					label: "🤖 Fluid AI",
 				},
+				{
+					type: "doc",
+					id: "projects/tech-forecast",
+					label: "🔮 Tech Forecast",
+				},
+				{
+					type: "doc",
+					id: "projects/ai-music",
+					label: "🎵 AI Music",
+				},
 			],
 		},
 		{

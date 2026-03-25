@@ -159,11 +159,7 @@ const config: Config = {
 					],
 				},
 			],
-<<<<<<< HEAD
 			copyright: `<span style="display: flex; align-items: center; justify-content: center; gap: 8px;">© ${new Date().getFullYear()} NishantGits. Built with <span style="color: #ff6b6b;">❤️</span></span>`,
-=======
-			copyright: `<span style="display: flex; align-items: center; justify-content: center; gap: 8px;">© ${new Date().getFullYear()} NishantGits. Built with <span style="color: #ff6b6b;">❤️</span>`,
->>>>>>> 8b6bb5e23f65ab3a5b394d59953c8cbe60f34217
 		},
 		prism: {
 			theme: prismThemes.github,

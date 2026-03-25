@@ -42,7 +42,7 @@ Personal information and detailed background
 
 For professional collaborations, consulting, or business opportunities:
 
-- **Email**: nishant@example.com
+- **Email**: nlrayyanyo@gmail.com
 - **Response Time**: Within 48 hours
 - **Availability**: Project-based consulting
 

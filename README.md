@@ -16,4 +16,4 @@ For questions about the landing page or projects:
 
 ---
 
-*Last updated: $(date +%Y-%m-%d)*
+*Last updated: Sun 8 March 2026*

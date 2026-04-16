@@ -47,6 +47,11 @@ const sidebars: SidebarsConfig = {
 					id: "projects/ai-music",
 					label: "🎵 AI Music",
 				},
+				{
+					type: "doc",
+					id: "projects/liquid",
+					label: "💎 LiqUId",
+				},
 			],
 		},
 		{

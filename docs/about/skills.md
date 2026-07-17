@@ -1,4 +1,5 @@
 ---
+id: skills
 title: 🛠️ Skills & Technologies
 description: My technical expertise and tool stack
 ---

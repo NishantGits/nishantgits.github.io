@@ -1,0 +1,31 @@
+---
+title: Games
+id: games
+---
+
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="url(#flow-gradient-games)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '10px'}}><defs><linearGradient id="flow-gradient-games" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#ff007f"/><stop offset="50%" stop-color="#7928ca"/><stop offset="100%" stop-color="#00dfd8"/></linearGradient></defs><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></svg> Games
+
+**FlowChat Games** is a curated collection of high-performance, web-based mini-games built directly into your FlowChat environment.
+
+## Featured Games
+
+- **Sky Metropolis**: Build and manage your glowing isometric dream city.
+- **Neon Runner**: A high-speed, side-scrolling endless runner set in a futuristic cityscape.
+- **Stretchy Cat**: A playful puzzle game where you navigate a very long cat through challenging grids.
+- **Android Jetpack**: Take to the skies and master the art of flight in this vertical adventure.
+- **Hole in One**: A precision-based casual golf experience.
+
+## Tech Stack
+
+Built with modern web standards to ensure smooth performance across all devices:
+
+- **Framework**: React 18+ with Vite
+- **Language**: TypeScript for robust, type-safe gameplay
+- **Styling**: Tailwind CSS for responsive and crisp UI
+- **Animations**: `motion` (Framer Motion) for fluid transitions
+- **Architecture**: Single Page Application (SPA) with Hash Routing for easy embedding
+
+High scores are persisted locally via `localStorage` so your records stay with you on your device.
+
+---
+*For questions, reach out to us at [contact@flowchats.org](mailto:contact@flowchats.org).*

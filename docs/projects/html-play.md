@@ -1,9 +1,10 @@
 ---
+id: html-play
 title: 🎨 HTMLPLAY
 description: Creative HTML Projects Collection
 ---
 
-# HTMLPLAY 🎨
+# 🎨 HTMLPLAY
 
 **HTMLPLAY is a collection of creative and interactive HTML projects** showcasing modern web development techniques, stunning designs, and innovative user experiences.
 

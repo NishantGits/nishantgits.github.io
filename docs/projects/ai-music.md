@@ -1,4 +1,5 @@
 ---
+id: ai-music
 title: 🎵 AI Music
 description: "Music created using AI tools and shared on SoundCloud"
 sidebar_position: 5

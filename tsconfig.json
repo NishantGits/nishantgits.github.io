@@ -9,8 +9,8 @@
 		"types": [
 			"node",
 			"@docusaurus/module-type-aliases",
-			"@docusaurus/theme-classic",
-			"docusaurus-plugin-sass"
+			"@docusaurus/theme-classic"
+			// "docusaurus-plugin-sass"
 		]
 	},
 	"exclude": ["node_modules", "build", ".docusaurus"]

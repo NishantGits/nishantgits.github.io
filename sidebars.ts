@@ -24,7 +24,7 @@ const sidebars: SidebarsConfig = {
 			items: [
 				{
 					type: "doc",
-					id: "projects/flowchat",
+					id: "projects/flow-ecosystem/flowchat",
 					label: "💬 FlowChat",
 				},
 				{
@@ -51,6 +51,72 @@ const sidebars: SidebarsConfig = {
 					type: "doc",
 					id: "projects/liquid",
 					label: "💎 LiqUId",
+				},
+				{
+					type: "doc",
+					id: "projects/terrai",
+					label: "🌱 Terrai",
+				},
+			],
+		},
+		{
+			type: "category",
+			label: "Flow Ecosystem",
+			customProps: { logo: "/img/logos/flow/flow.svg" },
+			items: [
+				{
+					type: "doc",
+					id: "projects/flow-ecosystem/flowchat",
+					label: "FlowChat",
+					customProps: { logo: "/img/logos/flow/flowchat.svg" },
+				},
+				{
+					type: "doc",
+					id: "projects/flow-ecosystem/notes",
+					label: "Notes",
+					customProps: { logo: "/img/logos/flow/notes.svg" },
+				},
+				{
+					type: "doc",
+					id: "projects/flow-ecosystem/channels",
+					label: "Channels",
+					customProps: { logo: "/img/logos/flow/channels.svg" },
+				},
+				{
+					type: "doc",
+					id: "projects/flow-ecosystem/calendar",
+					label: "Calendar",
+					customProps: { logo: "/img/logos/flow/calendar.svg" },
+				},
+				{
+					type: "doc",
+					id: "projects/flow-ecosystem/games",
+					label: "Games",
+					customProps: { logo: "/img/logos/flow/games.svg" },
+				},
+				{
+					type: "doc",
+					id: "projects/flow-ecosystem/flowcall",
+					label: "FlowCall",
+					customProps: { logo: "/img/logos/flow/flowcall.svg" },
+				},
+				{
+					type: "doc",
+					id: "projects/flow-ecosystem/flowsearch",
+					label: "FlowSearch",
+					customProps: { logo: "/img/logos/flow/flowsearch.svg" },
+				},
+				{
+					type: "doc",
+					id: "projects/flow-ecosystem/flowmovies",
+					label: "FlowMovies",
+					customProps: { logo: "/img/logos/flow/flowmovies.svg" },
+				},
+				{
+					type: "doc",
+					id: "projects/flow-ecosystem/weather",
+					label: "Flow Weather",
+					customProps: { logo: "/img/logos/flow/weather.svg" },
 				},
 			],
 		},

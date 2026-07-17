@@ -1,4 +1,5 @@
 ---
+id: tech-forecast
 title: Tech Forecast
 description: "AI-powered technology forecasting platform"
 sidebar_position: 4

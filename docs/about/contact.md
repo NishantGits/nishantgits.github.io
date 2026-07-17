@@ -1,4 +1,5 @@
 ---
+id: contact
 title: 📧 Contact & Social
 description: Get in touch and connect
 ---

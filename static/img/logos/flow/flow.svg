@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="url(#flow-gradient-zap-logo)" stroke="url(#flow-gradient-zap-logo)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap">
+  <defs>
+    <linearGradient id="flow-gradient-zap-logo" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="50%" stop-color="#7928ca" />
+      <stop offset="100%" stop-color="#00dfd8" />
+    </linearGradient>
+  </defs>
+  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+</svg>

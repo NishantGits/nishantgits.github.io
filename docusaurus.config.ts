@@ -105,61 +105,63 @@ const config: Config = {
 		footer: {
 			logo: {
 				src: "https://github.com/NishantGits.png",
-				height: 128,
+				height: 40,
 				style: {
-					borderRadius: "25px",
-					boxShadow: "0 4px 20px rgba(99, 102, 241, 0.15)",
-					border: "2px solid rgba(99, 102, 241, 0.2)",
-					transition: "all 0.3s ease"
+					borderRadius: "10px",
 				}
 			},
-			style: "dark",
 			links: [
 				{
-					title: "Projects",
+					title: "Flow Ecosystem",
 					items: [
 						{
-							label: "FlowChat",
-							href: "https://flowchats.org",
+							html: `<a href="https://flowchats.org" class="footer-icon-link">
+								<img src="/img/logos/flow/flowchat.svg" alt="" /> FlowChat
+							</a>`,
 						},
 						{
-							label: "HTMLPLAY",
-							href: "https://html-play.base44.app",
+							html: `<a href="https://search.flowchats.org" class="footer-icon-link">
+								<img src="/img/logos/flow/flowsearch.svg" alt="" /> FlowSearch
+							</a>`,
 						},
 						{
-							label: "Fluid AI",
-							href: "https://github.com/NishantGits/fluid-ai",
+							html: `<a href="https://call.flowchats.org" class="footer-icon-link">
+								<img src="/img/logos/flow/flowcall.svg" alt="" /> FlowCall
+							</a>`,
+						},
+						{
+							html: `<a href="https://movies.flowchats.org" class="footer-icon-link">
+								<img src="/img/logos/flow/flowmovies.svg" alt="" /> FlowMovies
+							</a>`,
 						},
 					],
 				},
 				{
-					title: "Resources",
+					title: "Other Projects",
 					items: [
-						{
-							label: "GitHub Profile",
-							href: "https://github.com/NishantGits",
-						},
-						{
-							label: "About Repository",
-							href: "https://github.com/NishantGits/nishantgits",
-						},
+						{ label: "🌱 Terrai", href: "https://github.com/NishantGits/terrai" },
+						{ label: "🎨 HTMLPLAY", href: "https://html-play.base44.app" },
+						{ label: "🤖 Fluid AI", href: "https://github.com/NishantGits/fluid-ai" },
 					],
 				},
 				{
 					title: "Connect",
 					items: [
-						{
-							label: "Email",
-							href: "mailto:nlrayyanyo@gmail.com",
-						},
-						{
-							label: "GitHub",
-							href: "https://github.com/NishantGits",
-						},
+						{ label: "GitHub", href: "https://github.com/NishantGits" },
+						{ label: "About Repository", href: "https://github.com/NishantGits/nishantgits" },
+						{ label: "Email", href: "mailto:nlrayyanyo@gmail.com" },
 					],
 				},
 			],
-			copyright: `<span style="display: flex; align-items: center; justify-content: center; gap: 8px;">© ${new Date().getFullYear()} NishantGits. Built with <span style="color: #ff6b6b;">❤️</span></span>`,
+			copyright: `
+				<div style="display:flex; justify-content:space-between; align-items:center; width:100%;">
+					<span>© ${new Date().getFullYear()} NishantGits. All rights reserved.</span>
+					<span>
+						<a href="https://github.com/NishantGits" style="margin-right:1.5rem;">GitHub</a>
+						<a href="mailto:nlrayyanyo@gmail.com">Contact</a>
+					</span>
+				</div>
+			`,
 		},
 		prism: {
 			theme: prismThemes.github,

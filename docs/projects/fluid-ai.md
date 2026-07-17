@@ -1,4 +1,5 @@
 ---
+id: fluid-ai
 title: 🤖 Fluid AI
 description: Local Chatbot Site - Free!
 ---

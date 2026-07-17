@@ -1,10 +1,11 @@
 ---
-title: LiqUId
+id: liquid
+title: 💧 LiqUId
 description: "Professional UI kit with 130+ elements and icon variations"
 sidebar_position: 6
 ---
 
-# LiqUId
+# 💧 LiqUId
 
 ## 💎 Overview
 
